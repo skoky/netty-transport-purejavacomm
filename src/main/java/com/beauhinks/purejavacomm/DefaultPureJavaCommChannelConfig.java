@@ -16,7 +16,7 @@ import static com.beauhinks.purejavacomm.PureJavaCommChannelOption.*;
  */
 final class DefaultPureJavaCommChannelConfig extends DefaultChannelConfig implements PureJavaCommChannelConfig {
 
-    private volatile int baudrate = 115200;
+    private volatile int baudrate = 9600;
     private volatile boolean dtr;
     private volatile boolean rts;
     private volatile Stopbits stopbits = Stopbits.STOPBITS_1;
